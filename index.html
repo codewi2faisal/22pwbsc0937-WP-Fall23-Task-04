@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce store</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+        }
+
+        .logo img {
+            max-width: 150px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            display: flex;
+        color:#f0f0f0;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+    
+        }
+
+        .burger {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f0f0f0;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 0;
+        }
+
+        .product {
+            text-align: center;
+            max-width: 300px;
+            margin: 20px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        form label,form input,form textarea {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        form textarea {
+            height: 150px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .company-info p {
+            margin: 5px 0;
+        }
+        .nav-links a {
+        color: white; 
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+
+
+<header>
+    <nav>
+        <div class="logo"><img src="14852523_5528439.jpg" alt="Company Logo"></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">&#9776;</div>
+    </nav>
+</header>
+
+
+<section class="hero">
+    <h1>Discover Our Amazing Products</h1>
+    <p>High-quality products at unbeatable prices.</p>
+    <button>Shop Now</button>
+</section>
+
+
+<section class="products" id="products">
+   
+    <div class="product">
+        <img src="Steak-recipe.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>$19.99</p>
+        <p>Medium rare Steak</p>
+    </div>
+    <div class="product">
+        <img src="cheese burger.webp" alt="Product 1">
+        <h3>Product 2</h3>
+        <p>$10.00</p>
+        <p>Burger</p>
+    </div>
+    
+</section>
+
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email">
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">X</a>
+        <a href="#">Instagram</a>
+    </div>
+    <div class="company-info">
+        <p>peshawar,pakistan</p>
+        <p>Phone: +92 234 567 890</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
